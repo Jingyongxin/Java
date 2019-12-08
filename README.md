@@ -8,8 +8,8 @@
           3、输入输出文件流实现选课信息录入
 
 #  实验过程
-
-###选课录入txt
+### 
+### 选课录入txt
 ```java
 File f1= new File(".."+File.separator+"选课.txt"); 
 	FileWriter out;//声明写入字符的类,用于字符数据的写入
@@ -42,7 +42,7 @@ File f1= new File(".."+File.separator+"选课.txt");
 	}
   ```
   
-  ###选课退课
+  ### 选课退课
   ```java
   	@Override
 			public void actionPerformed(ActionEvent e) {
@@ -68,9 +68,18 @@ File f1= new File(".."+File.separator+"选课.txt");
 				
 			}
 		});
-    ```
+```
     
-    流程图
+ ### 流程图
+   ---
+    
+    ![images](https://github.com/Jingyongxin/Java/blob/master/1.png)
+    
+### 运行结果
     ---
-    
-    ![images]()
+  ![images](https://github.com/Jingyongxin/Java/blob/master/3.png)
+  ![images](https://github.com/Jingyongxin/Java/blob/master/4.png)
+  
+### 实验感想
+通过这次最终Java编程实验，在同学的帮助下基本了解掌握字符串String及其方法的使用和异常处理结构，和如何设计GUI窗体，进一步培养l我利用Java语言进行编程和调试程序的能力。而实验过程中出现的错误，也通过老师和同学的解决并逐渐完善了程序，锻炼了自己的编程能力，收获良多。
+  
